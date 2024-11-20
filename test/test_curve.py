@@ -1,4 +1,4 @@
-from graphviz2drawio.mx.Curve import _line
+from ..mx.Curve import _line
 
 
 def test_line():

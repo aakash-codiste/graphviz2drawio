@@ -1,6 +1,6 @@
 import cmath
 
-from graphviz2drawio.models.Rect import Rect
+from ..models.Rect import Rect
 
 
 def test_closest_point_along_perimeter():

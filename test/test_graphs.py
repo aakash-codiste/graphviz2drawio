@@ -2,7 +2,7 @@ import html
 import re
 from xml.etree import ElementTree
 
-from graphviz2drawio import graphviz2drawio
+from . import graphviz2drawio
 
 num_cells_offset = 2
 

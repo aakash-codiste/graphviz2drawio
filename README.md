@@ -71,7 +71,7 @@ Graphs can be piped in from stdin and sent to stdout (default) or to a file with
 ## Library Usage
 
 ```python
-from graphviz2drawio import graphviz2drawio
+from . import graphviz2drawio
 
 graph_to_convert = ...
 xml = graphviz2drawio.convert(graph_to_convert)

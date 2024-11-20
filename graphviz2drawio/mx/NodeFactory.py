@@ -1,7 +1,7 @@
 import re
 from xml.etree.ElementTree import Element
 
-from graphviz2drawio.models import SVG
+from ..models import SVG
 
 from ..models.CoordsTranslate import CoordsTranslate
 from ..models.Errors import MissingIdentifiersError

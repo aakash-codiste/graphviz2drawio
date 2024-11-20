@@ -1,13 +1,13 @@
 from collections import OrderedDict
 from xml.etree.ElementTree import Element, SubElement, indent, tostring
 
-from graphviz2drawio.models import DotAttr
-from graphviz2drawio.models.Rect import Rect
-from graphviz2drawio.mx import MxConst
-from graphviz2drawio.mx.Curve import Curve
-from graphviz2drawio.mx.Edge import Edge
-from graphviz2drawio.mx.Node import Node
-from graphviz2drawio.mx.Styles import Styles
+from ..models import DotAttr
+from ..models.Rect import Rect
+from ..mx import MxConst
+from ..mx.Curve import Curve
+from ..mx.Edge import Edge
+from ..mx.Node import Node
+from ..mx.Styles import Styles
 
 
 class MxGraph:

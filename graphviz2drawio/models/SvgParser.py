@@ -4,10 +4,10 @@ from collections.abc import Iterable
 from math import isclose
 from xml.etree import ElementTree
 
-from graphviz2drawio.mx.Edge import Edge
-from graphviz2drawio.mx.EdgeFactory import EdgeFactory
-from graphviz2drawio.mx.Node import Gradient, Node
-from graphviz2drawio.mx.NodeFactory import NodeFactory
+from ..mx.Edge import Edge
+from ..mx.EdgeFactory import EdgeFactory
+from ..mx.Node import Gradient, Node
+from ..mx.NodeFactory import NodeFactory
 
 from ..mx.Curve import LINE_TOLERANCE
 from ..mx.utils import adjust_color_opacity
